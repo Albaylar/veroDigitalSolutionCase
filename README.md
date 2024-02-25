@@ -2,7 +2,7 @@
 
 ## **About the Project**
 
-** This project was created for the case study of Vero Digital Solution.
+This project was created for the case study of Vero Digital Solution.
 
 ## **Features**
 
