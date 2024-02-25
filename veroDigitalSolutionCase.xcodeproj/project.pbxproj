@@ -7,25 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		694C53D92B860898009EBD5B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694C53D82B860898009EBD5B /* Service.swift */; };
+		694C53DB2B8608BE009EBD5B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694C53DA2B8608BE009EBD5B /* NetworkManager.swift */; };
+		694C53DD2B8608C8009EBD5B /* NetworkUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694C53DC2B8608C8009EBD5B /* NetworkUtility.swift */; };
+		694C53DF2B8608D6009EBD5B /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694C53DE2B8608D6009EBD5B /* Error.swift */; };
+		694C53E22B86092C009EBD5B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 694C53E12B86092C009EBD5B /* Alamofire */; };
+		694C53E42B8609F6009EBD5B /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694C53E32B8609F6009EBD5B /* TaskModel.swift */; };
+		694C53EA2B87F266009EBD5B /* Extension + UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694C53E92B87F266009EBD5B /* Extension + UIColor.swift */; };
+		69688AEB2B8BE96C00827178 /* InternetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69688AEA2B8BE96C00827178 /* InternetManager.swift */; };
+		69688AED2B8BECCA00827178 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69688AEC2B8BECCA00827178 /* TaskListViewModel.swift */; };
+		698AA0522B8BE00600EB0178 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698AA0512B8BE00600EB0178 /* CoreDataManager.swift */; };
 		69B5DF772B84C5180089A3F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B5DF762B84C5180089A3F7 /* AppDelegate.swift */; };
 		69B5DF792B84C5180089A3F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B5DF782B84C5180089A3F7 /* SceneDelegate.swift */; };
-		69B5DF7B2B84C5180089A3F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B5DF7A2B84C5180089A3F7 /* ViewController.swift */; };
-		69B5DF7E2B84C5180089A3F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B5DF7C2B84C5180089A3F7 /* Main.storyboard */; };
+		69B5DF7B2B84C5180089A3F7 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B5DF7A2B84C5180089A3F7 /* ListVC.swift */; };
 		69B5DF812B84C5180089A3F7 /* veroDigitalSolutionCase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69B5DF7F2B84C5180089A3F7 /* veroDigitalSolutionCase.xcdatamodeld */; };
 		69B5DF832B84C51A0089A3F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B5DF822B84C51A0089A3F7 /* Assets.xcassets */; };
-		69B5DF862B84C51A0089A3F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B5DF842B84C51A0089A3F7 /* LaunchScreen.storyboard */; };
+		69B5DF8E2B84C5880089A3F7 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B5DF8D2B84C5880089A3F7 /* TabBarVC.swift */; };
+		69B5DF902B84C6F20089A3F7 /* QrVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B5DF8F2B84C6F20089A3F7 /* QrVC.swift */; };
+		69B5DF972B84DFF00089A3F7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 69B5DF962B84DFF00089A3F7 /* SnapKit */; };
+		69B5DF9B2B8580FE0089A3F7 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B5DF9A2B8580FE0089A3F7 /* ListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		694C53D82B860898009EBD5B /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		694C53DA2B8608BE009EBD5B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		694C53DC2B8608C8009EBD5B /* NetworkUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtility.swift; sourceTree = "<group>"; };
+		694C53DE2B8608D6009EBD5B /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		694C53E32B8609F6009EBD5B /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		694C53E92B87F266009EBD5B /* Extension + UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIColor.swift"; sourceTree = "<group>"; };
+		69688AEA2B8BE96C00827178 /* InternetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetManager.swift; sourceTree = "<group>"; };
+		69688AEC2B8BECCA00827178 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		698AA0512B8BE00600EB0178 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		69B5DF732B84C5180089A3F7 /* veroDigitalSolutionCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = veroDigitalSolutionCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B5DF762B84C5180089A3F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69B5DF782B84C5180089A3F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		69B5DF7A2B84C5180089A3F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		69B5DF7D2B84C5180089A3F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69B5DF7A2B84C5180089A3F7 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
 		69B5DF802B84C5180089A3F7 /* veroDigitalSolutionCase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = veroDigitalSolutionCase.xcdatamodel; sourceTree = "<group>"; };
 		69B5DF822B84C51A0089A3F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		69B5DF852B84C51A0089A3F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69B5DF872B84C51A0089A3F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B5DF8D2B84C5880089A3F7 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		69B5DF8F2B84C6F20089A3F7 /* QrVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrVC.swift; sourceTree = "<group>"; };
+		69B5DF9A2B8580FE0089A3F7 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +55,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B5DF972B84DFF00089A3F7 /* SnapKit in Frameworks */,
+				694C53E22B86092C009EBD5B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		694C53D52B8607C3009EBD5B /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				694C53D72B86087F009EBD5B /* Apı */,
+				694C53D62B860858009EBD5B /* Core */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		694C53D62B860858009EBD5B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				694C53D82B860898009EBD5B /* Service.swift */,
+				69688AEA2B8BE96C00827178 /* InternetManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		694C53D72B86087F009EBD5B /* Apı */ = {
+			isa = PBXGroup;
+			children = (
+				694C53DA2B8608BE009EBD5B /* NetworkManager.swift */,
+				694C53DC2B8608C8009EBD5B /* NetworkUtility.swift */,
+				694C53DE2B8608D6009EBD5B /* Error.swift */,
+			);
+			path = "Apı";
+			sourceTree = "<group>";
+		};
+		698AA04D2B8BC3BB00EB0178 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				69B5DF7A2B84C5180089A3F7 /* ListVC.swift */,
+				69B5DF9A2B8580FE0089A3F7 /* ListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		698AA04E2B8BC3D700EB0178 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				694C53E32B8609F6009EBD5B /* TaskModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		698AA04F2B8BC42400EB0178 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				69688AEC2B8BECCA00827178 /* TaskListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		698AA0502B8BDFF100EB0178 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				69B5DF7F2B84C5180089A3F7 /* veroDigitalSolutionCase.xcdatamodeld */,
+				698AA0512B8BE00600EB0178 /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
 		69B5DF6A2B84C5180089A3F7 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +144,52 @@
 		69B5DF752B84C5180089A3F7 /* veroDigitalSolutionCase */ = {
 			isa = PBXGroup;
 			children = (
-				69B5DF762B84C5180089A3F7 /* AppDelegate.swift */,
-				69B5DF782B84C5180089A3F7 /* SceneDelegate.swift */,
-				69B5DF7A2B84C5180089A3F7 /* ViewController.swift */,
-				69B5DF7C2B84C5180089A3F7 /* Main.storyboard */,
-				69B5DF822B84C51A0089A3F7 /* Assets.xcassets */,
-				69B5DF842B84C51A0089A3F7 /* LaunchScreen.storyboard */,
+				698AA0502B8BDFF100EB0178 /* CoreDataManager */,
+				694C53D52B8607C3009EBD5B /* Network Manager */,
+				69B5DF942B84DDDA0089A3F7 /* App */,
+				69B5DF932B84DDCB0089A3F7 /* TabBar */,
+				69B5DF922B84DDAC0089A3F7 /* QrCode */,
+				69B5DF912B84DD7E0089A3F7 /* TaskList */,
 				69B5DF872B84C51A0089A3F7 /* Info.plist */,
-				69B5DF7F2B84C5180089A3F7 /* veroDigitalSolutionCase.xcdatamodeld */,
+				694C53E92B87F266009EBD5B /* Extension + UIColor.swift */,
 			);
 			path = veroDigitalSolutionCase;
+			sourceTree = "<group>";
+		};
+		69B5DF912B84DD7E0089A3F7 /* TaskList */ = {
+			isa = PBXGroup;
+			children = (
+				698AA04F2B8BC42400EB0178 /* ViewModel */,
+				698AA04E2B8BC3D700EB0178 /* Model */,
+				698AA04D2B8BC3BB00EB0178 /* View */,
+			);
+			path = TaskList;
+			sourceTree = "<group>";
+		};
+		69B5DF922B84DDAC0089A3F7 /* QrCode */ = {
+			isa = PBXGroup;
+			children = (
+				69B5DF8F2B84C6F20089A3F7 /* QrVC.swift */,
+			);
+			path = QrCode;
+			sourceTree = "<group>";
+		};
+		69B5DF932B84DDCB0089A3F7 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				69B5DF8D2B84C5880089A3F7 /* TabBarVC.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		69B5DF942B84DDDA0089A3F7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				69B5DF822B84C51A0089A3F7 /* Assets.xcassets */,
+				69B5DF762B84C5180089A3F7 /* AppDelegate.swift */,
+				69B5DF782B84C5180089A3F7 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +208,10 @@
 			dependencies = (
 			);
 			name = veroDigitalSolutionCase;
+			packageProductDependencies = (
+				69B5DF962B84DFF00089A3F7 /* SnapKit */,
+				694C53E12B86092C009EBD5B /* Alamofire */,
+			);
 			productName = veroDigitalSolutionCase;
 			productReference = 69B5DF732B84C5180089A3F7 /* veroDigitalSolutionCase.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +240,10 @@
 				Base,
 			);
 			mainGroup = 69B5DF6A2B84C5180089A3F7;
+			packageReferences = (
+				69B5DF952B84DFF00089A3F7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				694C53E02B86092C009EBD5B /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 69B5DF742B84C5180089A3F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,9 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69B5DF862B84C51A0089A3F7 /* LaunchScreen.storyboard in Resources */,
 				69B5DF832B84C51A0089A3F7 /* Assets.xcassets in Resources */,
-				69B5DF7E2B84C5180089A3F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,33 +269,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69B5DF7B2B84C5180089A3F7 /* ViewController.swift in Sources */,
+				694C53DB2B8608BE009EBD5B /* NetworkManager.swift in Sources */,
+				69B5DF7B2B84C5180089A3F7 /* ListVC.swift in Sources */,
+				694C53D92B860898009EBD5B /* Service.swift in Sources */,
+				69688AEB2B8BE96C00827178 /* InternetManager.swift in Sources */,
+				694C53DF2B8608D6009EBD5B /* Error.swift in Sources */,
+				694C53E42B8609F6009EBD5B /* TaskModel.swift in Sources */,
 				69B5DF772B84C5180089A3F7 /* AppDelegate.swift in Sources */,
 				69B5DF792B84C5180089A3F7 /* SceneDelegate.swift in Sources */,
+				69B5DF9B2B8580FE0089A3F7 /* ListCell.swift in Sources */,
+				694C53EA2B87F266009EBD5B /* Extension + UIColor.swift in Sources */,
+				69B5DF8E2B84C5880089A3F7 /* TabBarVC.swift in Sources */,
 				69B5DF812B84C5180089A3F7 /* veroDigitalSolutionCase.xcdatamodeld in Sources */,
+				69B5DF902B84C6F20089A3F7 /* QrVC.swift in Sources */,
+				69688AED2B8BECCA00827178 /* TaskListViewModel.swift in Sources */,
+				698AA0522B8BE00600EB0178 /* CoreDataManager.swift in Sources */,
+				694C53DD2B8608C8009EBD5B /* NetworkUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		69B5DF7C2B84C5180089A3F7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69B5DF7D2B84C5180089A3F7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		69B5DF842B84C51A0089A3F7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69B5DF852B84C51A0089A3F7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		69B5DF882B84C51A0089A3F7 /* Debug */ = {
@@ -222,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -279,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -301,7 +422,6 @@
 				INFOPLIST_FILE = veroDigitalSolutionCase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -329,7 +449,6 @@
 				INFOPLIST_FILE = veroDigitalSolutionCase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -367,6 +486,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		694C53E02B86092C009EBD5B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		69B5DF952B84DFF00089A3F7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		694C53E12B86092C009EBD5B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 694C53E02B86092C009EBD5B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		69B5DF962B84DFF00089A3F7 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69B5DF952B84DFF00089A3F7 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		69B5DF7F2B84C5180089A3F7 /* veroDigitalSolutionCase.xcdatamodeld */ = {
