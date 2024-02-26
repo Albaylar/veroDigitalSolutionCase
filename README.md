@@ -35,7 +35,7 @@ cd veroDigitalSolutionCase
 ![Simulator Screenshot - iPhone 15 Pro Max - 2024-02-26 at 01 37 40](https://github.com/Albaylar/veroDigitalSolutionCase/assets/67964948/90ee298c-090b-43a0-83d6-d36d67f718d2)
 ![Simulator Screenshot - iPhone 15 Pro Max - 2024-02-26 at 01 37 59](https://github.com/Albaylar/veroDigitalSolutionCase/assets/67964948/40eb5087-7727-491b-bdf8-57b406f2be5d)
 
-#Video
+# Video
 
 
 https://github.com/Albaylar/veroDigitalSolutionCase/assets/67964948/d8897ae9-67d3-430e-99cf-146e8a1f8817
